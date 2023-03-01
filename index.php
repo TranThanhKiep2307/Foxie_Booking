@@ -12,8 +12,8 @@ $activate = "index";
                         <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
-                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
-                                <h1 class="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Foxie Booking</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Tận hưởng một chuyến bay an toàn và thú vị</h1>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
                                 <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
                             </div>
