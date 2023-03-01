@@ -22,76 +22,67 @@ $activate = "booking";
 
 
         <!-- Booking Start -->
-        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="bg-white shadow" style="padding: 35px;">
-                    <div class="row g-2">
-                        <div class="col-md-10">
-                            <div class="row g-2">
-                                <div class="col-md-2">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                        <option selected>Điểm Đi</option>
-                                        <option value="1">TP Hồ Chí Minh</option>
-                                        <option value="2">Hà Nội</option>
-                                        <option value="3">Đà Nẵng</option>
-                                        <option value="4">Quảng Ninh</option>
-                                        <option value="5">Hải Phòng</option>
-                                        <option value="6">Nghệ An</option>
-                                        <option value="7">Huế</option>
-                                        <option value="8">Khánh Hòa</option>
-                                        <option value="9">Lâm Đồng</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                        <option selected>Điểm Đến</option>
-                                        <option value="1">TP Hồ Chí Minh</option>
-                                        <option value="2">Hà Nội</option>
-                                        <option value="3">Đà Nẵng</option>
-                                        <option value="4">Quảng Ninh</option>
-                                        <option value="5">Hải Phòng</option>
-                                        <option value="6">Nghệ An</option>
-                                        <option value="7">Huế</option>
-                                        <option value="8">Khánh Hòa</option>
-                                        <option value="9">Lâm Đồng</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                        <option selected>Người lớn</option>
-                                        <option value="1">1 người</option>
-                                        <option value="2">2 người</option>
-                                        <option value="3">3 người</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                      <option selected>Trẻ em</option>
-                                        <option value="1">1 người</option>
-                                        <option value="2">2 người</option>
-                                        <option value="3">3 người</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn btn-primary w-100">Submit</button>
-                        </div>
-                    </div>
+         <div class="container">
+            <h2 class="mb-4">Chọn ngày</h2>
+            <form>
+              <div class="row">
+                <div class="col form-group">
+                  <label for="inputFrom">Điểm khởi hành</label>
+                  <select id="inputFrom" class="form-control">
+                    <option selected>Hồ Chí Minh</option>
+                    <option>Hà Nội</option>
+                    <option>Đà Nẵng</option>
+                  </select>
                 </div>
-            </div>
-        </div>
+                <div class="col form-group">
+                  <label for="inputTo">Điểm đến</label>
+                  <select id="inputTo" class="form-control">
+                    <option selected>New York</option>
+                    <option>Tokyo</option>
+                    <option>Bangkok</option>
+                  </select>
+                </div>
+                <div class="col form-group">
+                  <label for="inputDeparture">Ngày đi</label>
+                  <input type="date" class="form-control" id="inputDeparture">
+                </div>
+                <div class="col form-group">
+                  <label for="inputReturn">Ngày về</label>
+                  <input type="date" class="form-control" id="inputReturn" disabled>
+                </div>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="inputRoundtrip">
+                <label class="form-check-label" for="inputRoundtrip">Khứ hồi</label>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="return checkDate()">Tìm kiếm</button>
+            </form>
+          </div>
+          
+          
+          <script>
+          function checkDate() {
+            var inputDeparture = document.getElementById("inputDeparture").value;
+            var inputReturn = document.getElementById("inputReturn").value;
+            var today = new Date().toISOString().slice(0, 10);
+            
+            if (inputDeparture < today) {
+              alert("Ngày đi phải lớn hơn hoặc bằng ngày hiện tại.");
+              return false;
+            }
+            
+            if (document.getElementById("inputRoundtrip").checked && inputReturn < inputDeparture) {
+              alert("Ngày về phải lớn hơn hoặc bằng ngày đi.");
+              return false;
+            }
+            
+            return true;
+          }
+          
+          document.getElementById("inputRoundtrip").addEventListener("click", function() {
+            document.getElementById("inputReturn").disabled = !this.checked;
+          });
+          </script>
         <!-- Booking End -->
 
 
