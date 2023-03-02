@@ -9,7 +9,7 @@ $activate = "index";
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100" src="/img/plane_Carousel_2.jpg" alt="Image">
+                        <img class="w-100" src="img/plane_Carousel_2.jpg" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Foxie Booking</h6>
@@ -20,7 +20,7 @@ $activate = "index";
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="w-100" src="/img/plane_Carousel_1.jpg" alt="Image">
+                        <img class="w-100" src="img/plane_Carousel_1.jpg" alt="Image">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Foxie Booking</h6>
