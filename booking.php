@@ -165,7 +165,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/ve-6.jpg" alt="">
+                                <img class="img-fluid" src="img/ve-3.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -195,7 +195,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/ve-3.jpg" alt="">
+                                <img class="img-fluid" src="img/ve-4.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -225,7 +225,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/ve-4.jpg" alt="">
+                                <img class="img-fluid" src="img/about-5.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -255,7 +255,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/ve-5.jpg" alt="">
+                                <img class="img-fluid" src="img/about-6.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -301,16 +301,16 @@ $activate = "booking";
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/ve-1.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/ve-2.jpg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/ve-3.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/ve-4.jpg">
                             </div>
                         </div>
                     </div>
@@ -406,7 +406,7 @@ $activate = "booking";
                                               <option value="19"> 19</option>
                                               <option value="20"> 20</option>
                                             </select>
-                                            <label for="select1">Người lớn >12 tuổi</label>
+                                            <label for="select1">Người lớn > 12 tuổi</label>
                                           </div>
                                     </div>
                                     <div class="col-md-4">
