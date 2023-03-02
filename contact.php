@@ -77,7 +77,7 @@ $activate = "contact";
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        <a class="btn-submit btn btn-primary w-100 py-3" type="submit" onclick="event.preventDefault()">Send Message</a>
                                     </div>
                                 </div>
                             </form>
@@ -107,7 +107,19 @@ $activate = "contact";
         </div>
         <!-- Newsletter Start -->
     
-        
+        <script>
+            const submit = document.querySelector('.btn-submit')
+            const ipName = document.querySelector('#name')
+            const ipEmail = document.querySelector('#email')
+            let temp = true
+            submit.onclick = function(event) {
+                 if(ipName.value.length ==0) temp = false
+                 if(ipEmail.value.length == 0) temp = false
+                 if(temp === true) alert('Gửi thông tin thành công')
+                 else alert('Bạn vui lòng nhâp...')
+            }
+
+        </script>
 <?php
 @include('footer.php')
 
