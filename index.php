@@ -131,7 +131,7 @@ $activate = "index";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-2.jpg" alt="">
+                                <img class="img-fluid" src="img/img-2.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -155,7 +155,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-3.jpg" alt="">
+                                <img class="img-fluid" src="img/img-3.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -179,7 +179,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-4.jpg" alt="">
+                                <img class="img-fluid" src="img/img-4.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -203,7 +203,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-5.jpg" alt="">
+                                <img class="img-fluid" src="img/img-5.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -227,7 +227,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.5s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-6.jpg" alt="">
+                                <img class="img-fluid" src="img/img-6.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -251,7 +251,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.8s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-7.jpg" alt="">
+                                <img class="img-fluid" src="img/img-7.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -275,7 +275,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="2.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-8.jpg" alt="">
+                                <img class="img-fluid" src="img/img-8.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -299,7 +299,7 @@ $activate = "index";
                     </div><div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="2.4s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="/img/img-9.jpg" alt="">
+                                <img class="img-fluid" src="img/img-9.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
