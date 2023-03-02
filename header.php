@@ -81,7 +81,10 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0">
+
                                 <?php 
+                                @($activate == NULL);
+
                                 switch ($activate) {
                                     case 'index':
                                 ?>
@@ -110,7 +113,9 @@
                                 <a href="contact.php" class="nav-item nav-link active">Liên Hệ</a>
                                     <?php break;
                                   }
+                                
                                 ?>
+                                
                             </div>
                             <a href="booking.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Tiến hành đặt vé<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
