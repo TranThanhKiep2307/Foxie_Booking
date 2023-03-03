@@ -7,7 +7,9 @@ $activate = "booking";
         <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/ve-7.jpg);">
             <div class="container-fluid page-header-inner py-5">              
                 <div class="container text-center pb-5">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Đặt Vé</h1>
+                <!-- <h6 class="section-title text-center text-primary text-uppercase">Cùng Foxie Fly</h6> -->
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Booking</h1>
+                <!-- <h6 class="section-title text-center text-primary text-uppercase">để có thể trãi nghiệm thêm nhiều ưu đãi nhé</h6> -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
@@ -99,7 +101,7 @@ $activate = "booking";
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Khám phá thêm nhiều hành trình cùng Foxie Fly với mức giá vé hấp dẫn</h6>
-                    <h1 class="mb-5">THAM KHẢO CÁC LOẠI <span class="text-primary text-uppercase">VÉ</span></h1>
+                    <h1 class="mb-5">THAM KHẢO  <span class="text-primary text-uppercase">CÁC LOẠI VÉ</span></h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -295,7 +297,7 @@ $activate = "booking";
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Room Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">Luxury Room</span></h1>
+                    <h1 class="mb-5">BOOK A <span class="text-primary text-uppercase">Luxury Room</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">

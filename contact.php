@@ -7,7 +7,7 @@ $activate = "contact";
         <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center pb-5">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"> Contact </h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -107,6 +107,7 @@ $activate = "contact";
         </div>
         <!-- Newsletter Start -->
     
+        <!-- JS FORM START -->
         <script>
             const submit = document.querySelector('.btn-submit')
             const ipName = document.querySelector('#name')
@@ -116,10 +117,10 @@ $activate = "contact";
                  if(ipName.value.length ==0) temp = false
                  if(ipEmail.value.length == 0) temp = false
                  if(temp === true) alert('Gửi thông tin thành công')
-                 else alert('Bạn vui lòng nhâp...')
-            }
-
+                 else alert('Bạn vui lòng nhập đầy đủ thông tin!')
+                }
         </script>
+        <!-- JS FORM END -->
 <?php
 @include('footer.php')
 
