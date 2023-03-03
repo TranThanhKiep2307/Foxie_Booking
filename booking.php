@@ -4,7 +4,7 @@ $activate = "booking";
 ?>
 <body>
         <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/ve-7.jpg);">
             <div class="container-fluid page-header-inner py-5">              
                 <div class="container text-center pb-5">
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Đặt Vé</h1>
@@ -98,7 +98,7 @@ $activate = "booking";
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">CÁC VÉ GIÁ RẺ</h6>
+                    <h6 class="section-title text-center text-primary text-uppercase">Khám phá thêm nhiều hành trình cùng Foxie Fly với mức giá vé hấp dẫn</h6>
                     <h1 class="mb-5">THAM KHẢO CÁC LOẠI <span class="text-primary text-uppercase">VÉ</span></h1>
                 </div>
                 <div class="row g-4">
@@ -170,7 +170,7 @@ $activate = "booking";
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0"></h5>
+                                    <h5 class="mb-0">Cần Thơ-Nha Trang</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -225,7 +225,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/about-5.jpg" alt="">
+                                <img class="img-fluid" src="img/ve-5.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -255,7 +255,7 @@ $activate = "booking";
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/about-6.jpg" alt="">
+                                <img class="img-fluid" src="img/ve-6.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -385,6 +385,7 @@ $activate = "booking";
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
+                                              <option value="0"> 0</option>
                                               <option value="1"> 1</option>
                                               <option value="2"> 2</option>
                                               <option value="3"> 3</option>
@@ -412,7 +413,8 @@ $activate = "booking";
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select2">
-                                            <option value="1"> 1</option>
+                                              <option value="0"> 0</option>
+                                              <option value="1"> 1</option>
                                               <option value="2"> 2</option>
                                               <option value="3"> 3</option>
                                               <option value="4"> 4</option>
@@ -440,7 +442,8 @@ $activate = "booking";
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select2">
-                                            <option value="1"> 1</option>
+                                              <option value="0"> 0</option>
+                                              <option value="1"> 1</option>
                                               <option value="2"> 2</option>
                                               <option value="3"> 3</option>
                                               <option value="4"> 4</option>
@@ -482,7 +485,7 @@ $activate = "booking";
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                    <a class="btn-submit btn btn-primary w-100 py-3" type="submit" onclick="event.preventDefault()">Book Now</a>
                                     </div>
                                 </div>
                             </form>
@@ -503,7 +506,9 @@ $activate = "booking";
                             <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
                             <div class="position-relative mx-auto" style="max-width: 400px;">
                                 <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                               <div>
+                             
+                               </div> <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
                                 
                             </div>
                         </div>
@@ -513,7 +518,19 @@ $activate = "booking";
         </div>
         <!-- Newsletter Start -->
 
+        <script>
+            const submit = document.querySelector('.btn-submit')
+            const ipName = document.querySelector('#name')
+            const ipEmail = document.querySelector('#email')
+            let temp = true
+            submit.onclick = function(event) {
+                 if(ipName.value.length ==0) temp = false
+                 if(ipEmail.value.length == 0) temp = false
+                 if(temp === true) alert('Đặt vé thành công')
+                 else alert('Bạn vui lòng nhâp...')
+            }
 
+        </script>
         <?php
 @include('footer.php')
 
