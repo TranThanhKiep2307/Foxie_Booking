@@ -95,8 +95,12 @@ $activate = "booking";
                             </div>
                         </div>
                         <div class="col-md-2">
+<<<<<<< HEAD
+                            <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm</button>
+=======
                            <button class="btn btn-primary w-100">Tìm Kiếm</button> 
                      
+>>>>>>> 7303aac5fde25eae93aa3e147824f7b368e83a30
                         </div>
                     </div>
                 </div>

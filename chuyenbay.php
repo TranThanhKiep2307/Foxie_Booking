@@ -7,15 +7,15 @@ $activate = "service";
 
 
 <!-- Page Header Start -->
-<div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+<div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/lp.jpg);">
     <div class="container-fluid page-header-inner py-5">
         <div class="container text-center pb-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Chuyến Bay</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center text-uppercase">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item"><a href="booking.php">Trang Chủ</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Dịch vụ</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Liên hệ</li>
                 </ol>
             </nav>
         </div>
@@ -29,8 +29,8 @@ $activate = "service";
 <div class="container" id="list_dep_ticket">
 <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -48,30 +48,30 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
     <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -89,30 +89,30 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
     <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -130,30 +130,30 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
     <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -171,30 +171,30 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
     <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -212,30 +212,30 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
     <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
-            <div class="name_air">Vietman Airline</div>
-            <img class="airline_image" src="./img/flying_stork1600.png">
+            <div class="name_air">FOXIE FLY</div>
+
             <div class="from_city_code">SGN</div>
             <div class="dep_time">10:10</div>
             <i class="fa fa-fighter-jet to" aria-hidden="true"></i>
@@ -253,23 +253,23 @@ $activate = "service";
         <div class="flight_info" style="display:none;">
             <div class="direct_flight">
                 <div class="name_air">Hãng hàng không:
-                    <span>Vietman Airline</span>
+                    <span>FOXIE FLY</span>
                 </div>
-                <img class="airline_image" src="./img/flying_stork1600.png">
+
                 <div class="flight_code">Chuyến bay:
                     <span>VN 208</span>
                 </div>
                 <div class="from_city">Hồ Chí Minh</div>
                 <div class="from_city_code">SGN</div>
                 <div class="dep_time">10:10</div>
-                <div class="dep_date">12/10/2017</div>
+                <div class="dep_date">12/03/2023</div>
                 <div class="chart">
                     <div class="line"></div>
                 </div>
                 <div class="to_city">Hà Nội</div>
                 <div class="to_city_code">HAN</div>
                 <div class="dic_time">12:20</div>
-                <div class="ret_date">12/10/2017</div>
+                <div class="ret_date">12/03/2023</div>
             </div>
         </div>
     </div>
