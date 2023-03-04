@@ -5,10 +5,10 @@ $activate = "service";
 <link href="css/sodo.css" rel="stylesheet">
 
 <!-- Page Header Start -->
-<div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/lp.jpg);">
+<div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/plane_Carousel_1.jpg);">
     <div class="container-fluid page-header-inner py-5">
         <div class="container text-center pb-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Chuyến Bay</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Chuyến Bay</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center text-uppercase">
                     <li class="breadcrumb-item"><a href="booking.php">Trang Chủ</a></li>
@@ -93,44 +93,49 @@ $activate = "service";
 </div>
 <div></div>
 <!-- Testimonial Start -->
-<div class="container-xxl testimonial mt-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s" style="margin-bottom: 90px;">
+<div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
     <div class="container">
         <div class="owl-carousel testimonial-carousel py-5">
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
-                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Nhà sáng lập</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg"
-                        style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/LP.jpg" style="width: 45px; height: 45px;">
                     <div class="ps-3">
-                        <h6 class="fw-bold mb-1">Client Name</h6>
-                        <small>Profession</small>
+                        <h6 class="fw-bold mb-1">Nguyễn Lộc Phát</h6>
+                        <small>Nhóm trưởng</small>
                     </div>
                 </div>
                 <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
             </div>
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
-                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Nhà sáng lập</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg"
-                        style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/PT.jpg" style="width: 45px; height: 45px;">
                     <div class="ps-3">
-                        <h6 class="fw-bold mb-1">Client Name</h6>
-                        <small>Profession</small>
+                        <h6 class="fw-bold mb-1">Nguyễn Thị Phương Thư</h6>
+                        <small>Thành viên</small>
                     </div>
                 </div>
                 <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
             </div>
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
-                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Nhà sáng lập</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg"
-                        style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/KH.jpg" style="width: 45px; height: 45px;">
                     <div class="ps-3">
-                        <h6 class="fw-bold mb-1">Client Name</h6>
-                        <small>Profession</small>
+                        <h6 class="fw-bold mb-1">Nguyễn Ngọc Kiều Hân</h6>
+                        <small>Thành viên</small>
+                    </div>
+                </div>
+                <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+            </div>
+            <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                <p>Nhà sáng lập</p>
+                <div class="d-flex align-items-center">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/TK.jpg" style="width: 45px; height: 45px;">
+                    <div class="ps-3">
+                        <h6 class="fw-bold mb-1">Trần Thanh Kiệp</h6>
+                        <small>Thành viên</small>
                     </div>
                 </div>
                 <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
