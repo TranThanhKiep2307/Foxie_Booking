@@ -4,7 +4,7 @@ $activate = "booking";
 ?>
 <body>
         <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/ve-7.jpg);">
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/ve-5.jpg);">
             <div class="container-fluid page-header-inner py-5">              
                 <div class="container text-center pb-5">
                 <!-- <h6 class="section-title text-center text-primary text-uppercase">Cùng Foxie Fly</h6> -->
@@ -12,16 +12,16 @@ $activate = "booking";
                 <!-- <h6 class="section-title text-center text-primary text-uppercase">để có thể trãi nghiệm thêm nhiều ưu đãi nhé</h6> -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>
+                            <li class="breadcrumb-item"><a href="index.php">Trang Chủ</a></li>
+                            <li class="breadcrumb-item"><a href="service.php">Dịch Vụ</a></li>
+                            <li class="breadcrumb-item"><a href="contact.php">Liên Hệ</a></li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
-
+        
 
         <!-- Booking Start -->
         <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
@@ -33,62 +33,74 @@ $activate = "booking";
                                 <div class="col-md-2">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                                            placeholder="Ngày Đi" data-target="#date1" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
                                 <div class="col-md-2">
                                     <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Ngày Về" data-target="#date2" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="col-md-2">
+                                <select class="form-select" id="select1">
+                                              <option value="0">Điểm Đi</option>
+                                              <option value="1">Hà Nội</option>
+                                              <option value="2">Hồ Chí Minh</option>
+                                              <option value="3">Đà Nẵng</option>
+                                              <option value="3">Quảng Ninh</option>
+                                              <option value="3">Hải Phòng</option>
+                                              <option value="3">Nghệ An</option>
+                                              <option value="3">Huế</option>
+                                              <option value="3">Khánh Hòa</option>
+                                              <option value="3">Lâm Đồng</option>
+                                              <option value="3">Bình Định</option>
+                                              <option value="3">Cần Thơ</option>
+                                              <option value="3">Kiên Giang</option>
+                                              <option value="3">Đồng Nai</option>
+                                            </select>
+                                        
+                                </div>
+                                <div class="col-md-2">
+                                <select class="form-select" id="select1">
+                                              <option value="0">Điểm Đến</option>
+                                              <option value="1">Hà Nội</option>
+                                              <option value="2">Hồ Chí Minh</option>
+                                              <option value="3">Đà Nẵng</option>
+                                              <option value="3">Quảng Ninh</option>
+                                              <option value="3">Hải Phòng</option>
+                                              <option value="3">Nghệ An</option>
+                                              <option value="3">Huế</option>
+                                              <option value="3">Khánh Hòa</option>
+                                              <option value="3">Lâm Đồng</option>
+                                              <option value="3">Bình Định</option>
+                                              <option value="3">Cần Thơ</option>
+                                              <option value="3">Kiên Giang</option>
+                                              <option value="3">Đồng Nai</option>
+                                            </select>
+                                            
+                                </div>
+                                <div class="col-md-2">
                                     <select class="form-select">
-                                        <option selected>Điểm Đi</option>
-                                        <option value="1">TP Hồ Chí Minh</option>
-                                        <option value="2">Hà Nội</option>
-                                        <option value="3">Đà Nẵng</option>
-                                        <option value="4">Quảng Ninh</option>
-                                        <option value="5">Hải Phòng</option>
-                                        <option value="6">Nghệ An</option>
-                                        <option value="7">Huế</option>
-                                        <option value="8">Khánh Hòa</option>
-                                        <option value="9">Lâm Đồng</option>
+                                        <option selected>Loại Vé</option>
+                                        <option value="1">Người Lớn >12 tuổi</option>
+                                        <option value="2">Trẻ Em 2-11 tuổi</option>
                                     </select>
                                 </div>
                                 <div class="col-md-2">
                                     <select class="form-select">
-                                        <option selected>Điểm Đến</option>
-                                        <option value="1">TP Hồ Chí Minh</option>
-                                        <option value="2">Hà Nội</option>
-                                        <option value="3">Đà Nẵng</option>
-                                        <option value="4">Quảng Ninh</option>
-                                        <option value="5">Hải Phòng</option>
-                                        <option value="6">Nghệ An</option>
-                                        <option value="7">Huế</option>
-                                        <option value="8">Khánh Hòa</option>
-                                        <option value="9">Lâm Đồng</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                        <option selected>Người lớn</option>
-                                        <option value="1">1 người</option>
-                                        <option value="2">2 người</option>
-                                        <option value="3">3 người</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-2">
-                                    <select class="form-select">
-                                      <option selected>Trẻ em</option>
-                                        <option value="1">1 người</option>
-                                        <option value="2">2 người</option>
-                                        <option value="3">3 người</option>
+                                        <option value="1">Khứ Hồi</option>
+                                        <option value="2">Một chiều</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-2">
+<<<<<<< HEAD
                             <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm</button>
+=======
+                           <button class="btn btn-primary w-100">Tìm Kiếm</button> 
+                     
+>>>>>>> 7303aac5fde25eae93aa3e147824f7b368e83a30
                         </div>
                     </div>
                 </div>
@@ -108,11 +120,12 @@ $activate = "booking";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/ve-1.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">789.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">TP Hồ CHí Minh-Hà Nội</h5>
+                                    <h5 class="mb-0">Đà Nẵng-Hà Nội</h5>
+                                   <br>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -121,12 +134,8 @@ $activate = "booking";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i></small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                               
+                                <p class="text-body mb-3">Giảm chỉ còn 789.000 VNĐ</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -138,11 +147,11 @@ $activate = "booking";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/ve-2.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">819.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">TP Hồ Chí Minh-Đà Lạt</h5>
+                                    <h5 class="mb-0">Hồ Chí Minh-Đà Lạt</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -152,11 +161,9 @@ $activate = "booking";
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Giảm chỉ còn 819.000 VNĐ</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -168,11 +175,11 @@ $activate = "booking";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/ve-3.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">939.000/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Cần Thơ-Nha Trang</h5>
+                                    <h5 class="mb-0">Hồ Chí Minh-Huế</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -182,11 +189,9 @@ $activate = "booking";
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Giảm chỉ còn 939.000 VNĐ</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -202,7 +207,7 @@ $activate = "booking";
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Hà Nội-Hải Phòng </h5>
+                                    <h5 class="mb-0">Hà Nội-Bangkok </h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -212,11 +217,9 @@ $activate = "booking";
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                   
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Giảm chỉ còn 100$</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -228,11 +231,11 @@ $activate = "booking";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/ve-5.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$200/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà Nội-Los Angeles</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -242,11 +245,9 @@ $activate = "booking";
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                  
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Giảm chỉ còn 200$</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -258,11 +259,11 @@ $activate = "booking";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/ve-6.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$150/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Executive Suite</h5>
+                                    <h5 class="mb-0">Hà Nội-Chicago</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -272,11 +273,9 @@ $activate = "booking";
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Giảm chỉ còn 150$</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -291,13 +290,18 @@ $activate = "booking";
 
         <!--loại vé giá rẻ-->
 
+        <div class="container-xxl py-5">
+
+
+        </div>
+
 
         <!-- Booking Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">Room Booking</h6>
-                    <h1 class="mb-5">BOOK A <span class="text-primary text-uppercase">Luxury Room</span></h1>
+                    <h6 class="section-title text-center text-primary text-uppercase">Đặt vé ngay</h6>
+                    <h1 class="mb-5">Tại <span class="text-primary text-uppercase">Foxie Fly</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -335,18 +339,19 @@ $activate = "booking";
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">Check in</label>
+                                            <label for="checkin">Ngày Đi</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date4" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
-                                            <label for="checkout">Check out</label>
+                                            <label for="checkout">Ngày Về</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
+                                              <option value="0">    </option>
                                               <option value="1">Hà Nội</option>
                                               <option value="2">Hồ Chí Minh</option>
                                               <option value="3">Đà Nẵng</option>
@@ -361,32 +366,44 @@ $activate = "booking";
                                               <option value="3">Kiên Giang</option>
                                               <option value="3">Đồng Nai</option>
                                             </select>
-                                            <label for="select1">Điểm đi</label>
-                                          </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <select class="form-select" id="select1">
-                                              <option value="1">Hà Nội</option>
-                                              <option value="2">Hồ Chí Minh</option>
-                                              <option value="3">Đà Nẵng</option>
-                                              <option value="3">Quảng Ninh</option>
-                                              <option value="3">Hải Phòng</option>
-                                              <option value="3">Nghệ An</option>
-                                              <option value="3">Huế</option>
-                                              <option value="3">Khánh Hòa</option>
-                                              <option value="3">Lâm Đồng</option>
-                                              <option value="3">Bình Định</option>
-                                              <option value="3">Cần Thơ</option>
-                                              <option value="3">Kiên Giang</option>
-                                              <option value="3">Đồng Nai</option>
-                                            </select>
-                                            <label for="select1">Điểm đến</label>
+                                            <label for="select1">Điểm Đi</label>
                                           </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
+                                              <option value="0">    </option>
+                                              <option value="1">Hà Nội</option>
+                                              <option value="2">Hồ Chí Minh</option>
+                                              <option value="3">Đà Nẵng</option>
+                                              <option value="3">Quảng Ninh</option>
+                                              <option value="3">Hải Phòng</option>
+                                              <option value="3">Nghệ An</option>
+                                              <option value="3">Huế</option>
+                                              <option value="3">Khánh Hòa</option>
+                                              <option value="3">Lâm Đồng</option>
+                                              <option value="3">Bình Định</option>
+                                              <option value="3">Cần Thơ</option>
+                                              <option value="3">Kiên Giang</option>
+                                              <option value="3">Đồng Nai</option>
+                                            </select>
+                                            <label for="select1">Điểm Đến</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="select1">
+                                              <option value="0">    </option>
+                                              <option value="1">Một Chiều</option>
+                                              <option value="2">Khứ Hồi</option>
+                                            </select>
+                                            <label for="select1">Loại Vé</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="select1">
+                                              <option value="0">    </option>
                                               <option value="0"> 0</option>
                                               <option value="1"> 1</option>
                                               <option value="2"> 2</option>
@@ -409,12 +426,13 @@ $activate = "booking";
                                               <option value="19"> 19</option>
                                               <option value="20"> 20</option>
                                             </select>
-                                            <label for="select1">Người lớn > 12 tuổi</label>
+                                            <label for="select1">Người Lớn >12 tuổi</label>
                                           </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select2">
+                                              <option value="0">    </option>
                                               <option value="0"> 0</option>
                                               <option value="1"> 1</option>
                                               <option value="2"> 2</option>
@@ -437,13 +455,14 @@ $activate = "booking";
                                               <option value="19"> 19</option>
                                               <option value="20"> 20</option>
                                             </select>
-                                            <label for="select2">Trẻ em 2-11 tuổi
+                                            <label for="select2">Trẻ Em 2-11 tuổi
                                             </label>
                                           </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-floating">
                                             <select class="form-select" id="select2">
+                                              <option value="0">    </option>
                                               <option value="0"> 0</option>
                                               <option value="1"> 1</option>
                                               <option value="2"> 2</option>
@@ -466,7 +485,7 @@ $activate = "booking";
                                               <option value="19"> 19</option>
                                               <option value="20"> 20</option>
                                             </select>
-                                            <label for="select2">Em bé < 24 tháng
+                                            <label for="select2">Em Bé <24 tháng
                                             </label>
                                           </div>
                                     </div>
@@ -477,13 +496,13 @@ $activate = "booking";
                                               <option value="2">Room 2</option>
                                               <option value="3">Room 3</option>
                                             </select>
-                                            <label for="select3">Chọn chỗ ngồi</label>
+                                            <label for="select3">Chọn Chỗ Ngồi</label>
                                           </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                            <label for="message">Special Request</label>
+                                            <label for="message">Ghi Chú</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -529,7 +548,7 @@ $activate = "booking";
                  if(ipName.value.length ==0) temp = false
                  if(ipEmail.value.length == 0) temp = false
                  if(temp === true) alert('Đặt vé thành công')
-                 else alert('Bạn vui lòng nhâp...')
+                 else alert('Bạn vui lòng nhâp đầy đủ thông tin !')
             }
 
         </script>
