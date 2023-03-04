@@ -66,6 +66,7 @@ $activate = "service";
         </div>
     </div>
 </div>
+
 <!--CHÚ THÍCH  -->
 
 <div class="legend">
@@ -76,10 +77,10 @@ $activate = "service";
   <div class="legend-box dat"></div>
   <span>Đã đặt</span>
   <div class="legend-box chon"></div>
-  <span>Đã chọn</span>
+  <span>Đang chọn</span>
 </div>
 
-
+<button class="pay-button">Thanh toán</button>
 <!-- Xác nhận form -->
 <div class="popup">
     <div class="confirm-box">
@@ -151,7 +152,7 @@ $activate = "service";
         </div>
     </div>
 </div>
-<!-- chú thích-->
+
 
 <?php
 @include('footer.php')

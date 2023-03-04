@@ -169,12 +169,17 @@ button:focus {
       }
       
       .trong {
-        background-color: yellow;
+        background-color: #FFE4C4;
       }
       
       .dat {
         background-color: red;
       } 
+      .chon {
+        background-color: #87CEFF;
+      }
+
+     
       /* ----------------------------------------------------------------------------------chuyen bay */
       
 
@@ -572,3 +577,10 @@ footer .navbar-brand {padding: 0;margin: 14px;}
 .pull-right {
     float: right;
 }
+/* Căn nút thanh toán bên trái */
+button.pay-button {
+  float: right;
+  margin-right: 0px;
+  background-color: orange;
+  color: black;
+} 
