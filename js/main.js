@@ -162,6 +162,26 @@ cancelButton.addEventListener("click", () => {
 });
 
 
+const form = document.getElementById('contact-form');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault(); // Ngăn chặn form gửi đi mặc định
+
+    // Kiểm tra xem tất cả các trường đã nhập đầy đủ
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    if (name === '' || email === '' || subject === '' || message === '') {
+      alert('Vui lòng nhập đầy đủ thông tin!');
+    } else {
+      // Nếu tất cả các trường đã nhập đầy đủ, gửi form
+      // Thực hiện xử lý gửi form ở đây (ví dụ: sử dụng Ajax để gửi form)
+      // Sau khi gửi thành công, hiển thị thông báo đã gửi
+      alert('Đã gửi thành công!');
+      form.reset(); // Reset form sau khi đã gửi thành công
+    }
+  });
 
 
 })(jQuery);
