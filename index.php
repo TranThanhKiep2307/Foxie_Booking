@@ -113,11 +113,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-1.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1.00.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà nội - Hồ Chí Minh</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -126,10 +126,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -138,11 +138,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-2.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1.00.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà Nội - Đà Nẵng</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -151,10 +151,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -162,11 +162,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-3.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$200/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà Nội - Los Angeles</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -175,10 +175,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -186,11 +186,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-4.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1.200.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà nội - Đà Lạt</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -199,10 +199,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -210,11 +210,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-5.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">500.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Cần Thơ - Đà Lạt</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -223,10 +223,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -234,11 +234,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-6.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">800.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Cà Mau - Đà Lạt</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -247,10 +247,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -258,11 +258,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-7.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hà Nội - Bangkok</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -271,10 +271,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -282,11 +282,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-8.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">2.000.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Cà Mau - Hà Nội</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -295,10 +295,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -306,11 +306,11 @@ $activate = "index";
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
                                 <img class="img-fluid" src="img/img-9.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">700.000 VNĐ/Vé</small>
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5>
+                                    <h5 class="mb-0">Hồ Chí Minh - Buôn Mê Thuột</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -319,10 +319,10 @@ $activate = "index";
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Tuyến bay được lựa chọn nhiều nhất</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="hienchuyenbay.php">Chọn chuyến bay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="booking.php">Đặt vé ngay</a>
                                 </div>
                             </div>
                         </div>
