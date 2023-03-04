@@ -369,7 +369,7 @@ $activate = "index";
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">ĐĂNG KÍ NGAY</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="login.php">ĐĂNG KÍ NGAY</a>
                     </div>
                     <div class="col-lg-6">
                         <div class="row g-3">
@@ -447,8 +447,6 @@ $activate = "index";
             </div>
         </div>
         <!-- Testimonial End -->
-        <?php
+<?php
 @include('footer.php')
-
-
 ?>
