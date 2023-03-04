@@ -1,0 +1,586 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .seats {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;   
+  }
+  
+  .seat {
+    background-color: #FFE4C4;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+   
+  }
+  
+  .available {
+    background-color: white;
+  }
+  
+  .booked {
+    background-color: rgb(49, 53, 111);
+    cursor: not-allowed;
+  }
+  .seat.booked {
+    background-color: rgb(226, 28, 28);
+    color: #000000;
+    text-align: center;
+  } /* đổi màu đặt vé */
+  .selected {
+    background-color: #87CEFF; /* đổi màu  đã chọn*/
+  }
+  .selected::after {
+    /* content: "Đã chọn";*/ 
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+     width: 105%;
+     height: 105%;
+     text-align: center;
+   
+ }
+  
+ .popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.confirm-box {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+  text-align: center;
+}
+
+.confirm-box p {
+  margin-top: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0073aa;
+}
+
+button:focus {
+    outline: none;
+    }
+    
+    #confirm-button {
+    background-color: #4CAF50;
+    }
+    
+    #confirm-button:hover {
+    background-color: #4CAF50;
+    }
+    
+    #cancel-button {
+    background-color: #f44336;
+    }
+          /* khúc này */
+          .seats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5px;
+          }
+          
+          .left-side {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(0, 1fr); /* thiết lập chiều cao mặc định cho hàng */
+            grid-gap: 10px;
+          }
+          
+          .right-side {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(0, 1fr); /* thiết lập chiều cao mặc định cho hàng */
+            grid-gap: 10px;
+          }
+          
+          .cot {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+          }
+          
+          
+        
+      .available {
+        background-color: #FFE4C4; /* đổi màu nền sau khi reset  sau đó quay lên seat đổi màu tiếp*/
+      }
+      /*chú thích------------------------------------------------------------------------------------------------------*/
+      .legend {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .legend-box {
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+        border: 1px solid #ccc;
+      }
+      
+      .trong {
+        background-color: #FFE4C4;
+      }
+      
+      .dat {
+        background-color: red;
+      } 
+      .chon {
+        background-color: #87CEFF;
+      }
+
+     
+      /* ----------------------------------------------------------------------------------chuyen bay */
+      
+
+.ve-may-bay-re-nhat .box{
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.ve-may-bay-re-nhat .box:hover img,.ve-may-bay-re-nhat .box:hover .price,.ve-may-bay-re-nhat .box:hover .opacity{
+  filter: blur(2px);
+}
+.ve-may-bay-re-nhat .box:hover .hover{
+  opacity:1;
+}
+.ve-may-bay-re-nhat .box .opacity{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  padding-top: 68px;
+  height: 50%;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  transition: all 1s ease;
+}
+.ve-may-bay-re-nhat .box .hover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.26);
+  padding: 44% 28%;
+  display: -webkit-box;
+  transition: all 1s ease;
+  opacity: 0;
+}
+.ve-may-bay-re-nhat .box .hover a{
+  border-radius: 50px;
+  padding: 5px 26px;
+  border: none;
+}
+.ve-may-bay-re-nhat .box p:first-child{
+  text-align: left;
+  padding: 0 10px;
+  margin: 0;
+  line-height: 2;
+  font-size: 15px;
+}
+.ve-may-bay-re-nhat .box p:last-child{
+  text-align: left;
+  padding: 0 10px;
+  margin: 0;
+  line-height: 2;
+  font-size: 11px;
+}
+.ve-may-bay-re-nhat .box p i{
+
+}
+.ve-may-bay-re-nhat .box p span{
+  color: #73e630;
+  float: right;
+}
+
+.ve-may-bay-re-nhat .box img{
+  transition: all 1s ease;
+}
+
+.ve-may-bay-re-nhat .box .price{
+  position: absolute;
+  background: red;
+  padding: 7px 11px;
+  box-shadow: 0px 0px 20px 0px black;
+  border-radius: 0px 0px 11px 0px;
+  color: white;
+  z-index: 100;
+  transition: all 1s ease;
+}
+.ve-may-bay-re-nhat h2,.ve-may-bay-re-nhat p{
+  text-align: center;
+}
+
+header .navbar{
+  background: white;
+  border-color: #e6d8d8;
+}
+.logo {
+  height: 100%;
+  padding: 0 38px;
+}
+footer .navbar-brand {padding: 0;margin: 14px;}
+
+.ticket_item {
+  width: 100%;
+  border: 1px solid #e0cccc;
+  box-shadow: 0px 0px 19px -6px;
+  display: inline-block;
+  margin-bottom: 11px;
+  background: white;
+}
+
+.ticket_item .ticket_info {
+  position: relative;
+  width: 100%;
+  min-height: 129px;
+}
+.ticket_item .ticket_info .name_air{
+  position: absolute;
+  left: 10px;
+  font-size: 26px;
+  top: 10px;
+  color: #441936;
+}
+.ticket_item .ticket_info .airline_image{
+  width: 53px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.ticket_item .ticket_info .from_city_code{
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: #90929c;
+}
+.ticket_item .ticket_info .dep_time{
+  bottom: 25%;
+  left: 1%;
+  position: absolute;
+  font-size: 30px;
+  color: #524661;
+}
+.ticket_item .ticket_info .to{
+  top: 64%;
+  left: 11%;
+  position: absolute;
+  color: #ad7575;
+}
+.ticket_item .ticket_info .to_city_code{
+  position: absolute;
+  bottom: 10%;
+  left: 17%;
+  color: #90929c;
+}
+.ticket_item .ticket_info .dic_time{
+  bottom: 25%;
+  left: 15%;
+  position: absolute;
+  font-size: 30px;
+  color: #524661;
+}
+.ticket_item .ticket_info .transit{
+  position: absolute;
+  color: #524661;
+  text-align: center;
+  left: 28%;
+  font-size: 15px;
+  bottom: 30%;
+}
+.ticket_item .ticket_info .detail{
+  position: absolute;
+  color: #4989c8;
+  text-align: center;
+  left: 28%;
+  font-size: 15px;
+  bottom: 12%;
+  cursor: pointer;
+}
+.ticket_item .ticket_info .price{
+  position: absolute;
+  right: 19%;
+  font-size: 40px;
+  color: red;
+  bottom: 5%;
+  font-weight: 300;
+}
+.ticket_item .ticket_info .price span{
+  font-size: 18px;
+}
+.ticket_item .ticket_info .btn_select{
+  position: absolute;
+  right: 2%;
+  border: 2px solid #ff0000;
+  color: red;
+  bottom: 10%;
+  font-size: 20px;
+  padding: 3px 30px;
+  border-radius: 54px;
+}
+
+.ticket_item .flight_info{
+  border-top: 1px solid #c5b1b1;
+}
+
+
+.direct_flight {
+  width: 100%;
+  position: relative;
+  height: 180px;
+}
+.direct_flight .name_air{
+  position: absolute;
+  left: 38%;
+  font-size: 15px;
+  top: 1%;
+}
+.direct_flight .name_air span{font-size: 23px;color: #563865;font-weight: 300;}
+.direct_flight .flight_code span{
+  font-size: 18px;
+  font-weight: 300;
+  color: #c38e48;
+}
+.direct_flight .flight_code{
+  position: absolute;
+  left: 38%;
+  font-size: 15px;
+  top: 31%;
+}
+.direct_flight .airline_image{
+  width: 40px;
+  position: absolute;
+  right: 10px;
+}
+.direct_flight .from_city_code{
+  position: absolute;
+  left: 21%;
+  top: 32%;
+}
+.direct_flight .from_city{
+  position: absolute;
+  left: 21%;
+  top: 22%;
+}
+.direct_flight .dep_time{
+  position: absolute;
+  right: 81%;
+  top: 22%;
+}
+.direct_flight .dep_date{
+  position: absolute;
+  right: 81%;
+  top: 32%;
+}
+.direct_flight .chart{
+  width: 1px;
+  height: 100%;
+  background: rgb(196, 177, 176);
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.direct_flight .chart .line{
+  background: black;
+  height: 51%;
+  margin-top: 57px;
+}
+.direct_flight .chart .line::before{
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border: 1px solid;
+  margin-left: -5px;
+  border-radius: 22px;
+  background: white;
+}
+.direct_flight .chart .line::after{
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border: 1px solid;
+  margin-left: -5px;
+  border-radius: 100px;
+  background: white;
+  bottom: 13%;
+}
+.direct_flight .to_city{
+  position: absolute;
+  left: 21%;
+  top: 75%;
+}
+.direct_flight .to_city_code{
+  position: absolute;
+  left: 21%;top: 85%;
+}
+.direct_flight .dic_time{
+  position: absolute;
+  right: 81%;
+  top: 75%;
+}
+.direct_flight .ret_date{
+  position: absolute;
+  right: 81%;
+  top: 85%;
+}
+
+
+.main_body {
+  margin-top: 60px;
+}
+
+.flight_title {
+  
+}
+.flight_title .location{
+  font-size: 36px;
+  text-align: center;
+  color: #584646;
+  line-height: 3;
+}
+.flight_title .edit_search{
+  text-align: center;
+  border: 1px solid;
+  width: 16%;
+  margin: 12px 42%;
+}
+.flight_title .hanh_trinh{
+}
+.flight_title .hanh_trinh div:first-child{
+  font-size: 26px;
+}
+.flight_title .hanh_trinh div:last-child{
+  font-size: 17px;
+  line-height: 2;
+  color: #906b6b;
+}
+
+
+.dedail_and_total {
+  background: white;
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid #ead3d3;
+  box-shadow: 0px -18px 50px -30px;
+}
+.dedail_and_total .detail_cont{
+  
+}
+.dedail_and_total .total_cont{
+  
+}
+.dedail_and_total .total_cont .total_price{
+  float: left;
+  font-size: 51px;
+  color: red;
+  line-height: 2.8;
+  font-weight: 300;
+}
+.dedail_and_total .total_cont .total_price span{
+  font-size: 30px;
+}
+.dedail_and_total .total_cont .continue{
+  float: left;
+  border: 1px solid red;
+  background: red;
+  color: white;
+  border-radius: 58px;
+  margin: 50px;
+  padding: 10px 35px;
+}
+
+
+.contract_con,.traveller_con,.payment_method_con {
+  border: 1px solid #e4d3d3;
+  background: white;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 40px -15px;
+}
+.contract_con .title,.traveller_con .title,.payment_method_con .title {
+  font-size: 22px;
+  line-height: 3;
+  color: #444e6d;
+}
+
+.pm_store,.pm_cus,.pm_bank {
+  width: 100%;
+  border-top: 1px solid #d2b7b7;
+}
+
+.complete {
+  background: white;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0px -16px 40px -27px;
+}
+.complete .continue{
+  width: 20%;
+  margin: 22px 40%;
+  background: red;
+  color: white;
+  border-radius: 53px;
+  font-size: 24px;
+}
+
+.pull-right {
+    float: right;
+}
+/* Căn nút thanh toán bên trái */
+button.pay-button {
+  float: right;
+  margin-right: 0px;
+  background-color: orange;
+  color: black;
+} 

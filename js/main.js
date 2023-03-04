@@ -105,6 +105,61 @@
         }
     });
     
-    
+    const seats = document.querySelectorAll(".seat");
+const popup = document.querySelector(".popup");
+const confirmButton = document.querySelector("#confirm-button");
+const cancelButton = document.querySelector("#cancel-button");
+let selectedSeat = null;
+let confirmed = false;
+
+seats.forEach((seat) => {
+  seat.addEventListener("click", () => {
+    if (seat.classList.contains("booked")) {
+      return;
+    }
+
+    if (selectedSeat !== null && selectedSeat === seat) {
+      popup.style.display = "flex";
+    } else {
+      seat.classList.remove("available");
+      seat.classList.add("selected");
+   
+      selectedSeat = seat;
+    }
+  });
+
+  seat.addEventListener("lclick", () => {
+    if (seat.classList.contains("booked")) {
+      return;
+    }
+
+    seat.classList.remove("selected");
+    seat.classList.add("available");
+    seat.innerText = "";
+    selectedSeat = null;
+  });
+});
+
+confirmButton.addEventListener("click", () => {
+  selectedSeat.classList.remove("selected");
+  selectedSeat.classList.add("booked");
+ /* selectedSeat.innerText = "Đã đặt";*/
+  selectedSeat = null;
+  popup.style.display = "none";
+});
+
+cancelButton.addEventListener("click", () => {
+  if (!confirmed && selectedSeat) {
+    selectedSeat.style.backgroundColor = ""; // reset color
+    selectedSeat.classList.remove("selected");
+    selectedSeat.classList.remove("booked");
+    selectedSeat.classList.add("available");
+    selectedSeat = null;
+  }
+  popup.style.display = "none";
+  confirmed = false;
+  selectedSeat.innerText = ""; // remove the text
+});
+
 })(jQuery);
 
