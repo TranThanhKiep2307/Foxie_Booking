@@ -10,7 +10,7 @@ $activate = "service";
 <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/CB.jpg);">
     <div class="container-fluid page-header-inner py-5">
         <div class="container text-center pb-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Chuyến Bay</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Chuyến Bay</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center text-uppercase">
                     <li class="breadcrumb-item"><a href="booking.php">Trang Chủ</a></li>
@@ -27,7 +27,7 @@ $activate = "service";
 </div>
 </div>
 <div class="container" id="list_dep_ticket">
-<div class="ticket_item" price="1.000.000">
+    <div class="ticket_item" price="1.000.000">
         <div class="ticket_info">
             <div class="name_air">FOXIE FLY</div>
 
@@ -342,7 +342,58 @@ $activate = "service";
     });
 </script>
 </div>
-
+<!-- Testimonial Start -->
+<div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Nhà sáng lập</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/LP.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Nguyễn Lộc Phát</h6>
+                                <small>Nhóm trưởng</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Nhà sáng lập</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/PT.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Nguyễn Thị Phương Thư</h6>
+                                <small>Thành viên</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Nhà sáng lập</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/KH.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Nguyễn Ngọc Kiều Hân</h6>
+                                <small>Thành viên</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Nhà sáng lập</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/TK.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Trần Thanh Kiệp</h6>
+                                <small>Thành viên</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Testimonial End -->
 <?php
 @include('footer.php')
 
