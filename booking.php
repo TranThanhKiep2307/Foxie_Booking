@@ -88,7 +88,7 @@ $activate = "booking";
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <button class="btn btn-primary w-100">Submit</button>
+                            <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm</button>
                         </div>
                     </div>
                 </div>
