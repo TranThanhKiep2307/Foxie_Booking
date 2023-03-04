@@ -161,5 +161,8 @@ cancelButton.addEventListener("click", () => {
   selectedSeat.innerText = ""; // remove the text
 });
 
+
+
+
 })(jQuery);
 
