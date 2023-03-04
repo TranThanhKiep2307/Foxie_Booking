@@ -23,7 +23,7 @@ $activate = "service";
 
 <!-- Chon ghe -->
 
-    <h1>Vui lòng chọn ghế</h1>
+<h1>Vui lòng chọn ghế</h1>
 <div class="seats">
     <div class="left-side">
         <div class="cot">
@@ -70,14 +70,14 @@ $activate = "service";
 <!--CHÚ THÍCH  -->
 
 <div class="legend">
-  <h3>Chú thích: </h3>
-  <div class="legend-box trong"></div>
+    <h3>Chú thích: </h3>
+    <div class="legend-box trong"></div>
 
-  <span>Còn trống</span>
-  <div class="legend-box dat"></div>
-  <span>Đã đặt</span>
-  <div class="legend-box chon"></div>
-  <span>Đang chọn</span>
+    <span>Còn trống</span>
+    <div class="legend-box dat"></div>
+    <span>Đã đặt</span>
+    <div class="legend-box chon"></div>
+    <span>Đang chọn</span>
 </div>
 
 <button class="pay-button">Thanh toán</button>
@@ -98,9 +98,11 @@ $activate = "service";
     <div class="container">
         <div class="owl-carousel testimonial-carousel py-5">
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
+                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg"
+                        style="width: 45px; height: 45px;">
                     <div class="ps-3">
                         <h6 class="fw-bold mb-1">Client Name</h6>
                         <small>Profession</small>
@@ -109,9 +111,11 @@ $activate = "service";
                 <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
             </div>
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
+                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg"
+                        style="width: 45px; height: 45px;">
                     <div class="ps-3">
                         <h6 class="fw-bold mb-1">Client Name</h6>
                         <small>Profession</small>
@@ -120,9 +124,11 @@ $activate = "service";
                 <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
             </div>
             <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet.
+                    Est stet ea lorem amet est kasd kasd et erat magna eos</p>
                 <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                    <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg"
+                        style="width: 45px; height: 45px;">
                     <div class="ps-3">
                         <h6 class="fw-bold mb-1">Client Name</h6>
                         <small>Profession</small>
@@ -145,7 +151,8 @@ $activate = "service";
                     <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                        <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                        <button type="button"
+                            class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
                     </div>
                 </div>
             </div>
