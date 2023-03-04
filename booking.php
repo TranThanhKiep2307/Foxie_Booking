@@ -12,9 +12,9 @@ $activate = "booking";
                 <!-- <h6 class="section-title text-center text-primary text-uppercase">để có thể trãi nghiệm thêm nhiều ưu đãi nhé</h6> -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="index.php">Trang Chủ</a></li>
-                            <li class="breadcrumb-item"><a href="service.php">Dịch Vụ</a></li>
-                            <li class="breadcrumb-item"><a href="contact.php">Liên Hệ</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">HOME</a></li>
+                            <li class="breadcrumb-item"><a href="service.php">PAGES</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>
                         </ol>
                     </nav>
                 </div>
