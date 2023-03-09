@@ -53,20 +53,20 @@ $activate = "index";
                     <div class="row g-2">
                         <div class="col-md-10">
                             <div class="row g-2">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Ngày đi" data-target="#date1" data-toggle="datetimepicker" />
+                                            placeholder="Ngày Đi" data-target="#date1" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Ngày về" data-target="#date2" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Ngày Về" data-target="#date2" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                    <option value="0">Điểm Đi</option>
+                                <div class="col-md-2">
+                                <select class="form-select" id="select1">
+                                              <option value="0">Điểm Đi</option>
                                               <option value="1">Hà Nội</option>
                                               <option value="2">Hồ Chí Minh</option>
                                               <option value="3">Đà Nẵng</option>
@@ -80,20 +80,45 @@ $activate = "index";
                                               <option value="3">Cần Thơ</option>
                                               <option value="3">Kiên Giang</option>
                                               <option value="3">Đồng Nai</option>
-                                    </select>
+                                            </select>
+                                        
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
+                                <select class="form-select" id="select1">
+                                              <option value="0">Điểm Đến</option>
+                                              <option value="1">Hà Nội</option>
+                                              <option value="2">Hồ Chí Minh</option>
+                                              <option value="3">Đà Nẵng</option>
+                                              <option value="3">Quảng Ninh</option>
+                                              <option value="3">Hải Phòng</option>
+                                              <option value="3">Nghệ An</option>
+                                              <option value="3">Huế</option>
+                                              <option value="3">Khánh Hòa</option>
+                                              <option value="3">Lâm Đồng</option>
+                                              <option value="3">Bình Định</option>
+                                              <option value="3">Cần Thơ</option>
+                                              <option value="3">Kiên Giang</option>
+                                              <option value="3">Đồng Nai</option>
+                                            </select>
+                                            
+                                </div>
+                                <div class="col-md-2">
                                     <select class="form-select">
-                                        <option selected>Loại vé</option>
+                                        <option selected>Loại Vé</option>
                                         <option value="1">Người Lớn >12 tuổi</option>
                                         <option value="2">Trẻ Em 2-11 tuổi</option>
                                     </select>
                                 </div>
+                                <div class="col-md-2">
+                                    <input type="radio" id="html" name="fav_language" value="HTML">
+                                        <label for="html">Một chiều</label><br>
+                                        <input type="radio" id="css" name="fav_language" value="CSS">
+                                        <label for="css">Khứ hồi</label><br>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-2">
-                        
-                        <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm kiếm</button></a>
+                            <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm</button></a>                 
                         </div>
                     </div>
                 </div>
@@ -369,7 +394,7 @@ $activate = "index";
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="login.php">ĐĂNG KÍ NGAY</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="#">ĐĂNG KÍ NGAY</a>
                     </div>
                     <div class="col-lg-6">
                         <div class="row g-3">

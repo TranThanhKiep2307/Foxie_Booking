@@ -43,6 +43,7 @@ $activate = "booking";
                                 </div>
                                 <div class="col-md-2">
                                 <select class="form-select" id="select1">
+                                    
                                               <option value="0">Điểm Đi</option>
                                               <option value="1">Hà Nội</option>
                                               <option value="2">Hồ Chí Minh</option>
@@ -87,15 +88,17 @@ $activate = "booking";
                                     </select>
                                 </div>
                                 <div class="col-md-2">
-                                    <select class="form-select">
-                                        <option value="1">Khứ Hồi</option>
-                                        <option value="2">Một chiều</option>
-                                    </select>
+                                    <!-- <select class="radio-button"> -->
+                                    <input type="radio" id="html" name="fav_language" value="HTML">
+                                        <label for="html">Một chiều</label><br>
+                                        <input type="radio" id="css" name="fav_language" value="CSS">
+                                        <label for="css">Khứ hồi</label><br>
+                                    <!-- </select> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm</button></a>                 
+                            <a href="chuyenbay.php"><button class="btn btn-primary w-100">Tìm kiếm</button></a>                 
                         </div>
                     </div>
                 </div>
